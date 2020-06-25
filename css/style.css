@@ -24,7 +24,7 @@ a:hover, a:active, a:focus {
 }
 
 p {
-  padding: 0;
+  text-align: center;
   margin: 0 0 30px 0;
 }
 
@@ -33,7 +33,7 @@ h1,h2, h3, h4, h5, h6 {
   font-family: "Poppins", sans-serif;
   font-weight: 400;
   margin: 0 0 20px 0;
-  padding: 0;
+  padding:0;
 }
 
 /* Prelaoder */
@@ -495,7 +495,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 .section-header .section-description {
   text-align: center;
-  padding-bottom: 40px;
+  padding-bottom: 20px;
   color:white;
 }
 
@@ -506,11 +506,17 @@ body.mobile-nav-active #mobile-nav-toggle {
   padding: 80px 0;
 }
 
+.about h2{
+  text-align: center;
+  padding-top: 34px;
+  color:orangered;
+}
+
 #about .about-container .background {
   min-height: 300px;
-  background: url(../img/about-img.jpg) center top no-repeat;
-  margin-bottom: 10px;
-  margin-top: 50px;
+  background: url(../img/about-img.jpg);
+  margin-bottom: 50px;
+  margin-top: -70px;
 }
 
 #about .about-container .content {
@@ -545,7 +551,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 #services {
   background: black;
   background-size: cover;
-  padding: 80px 0 60px 0;
+  padding: 140px 0 60px 0;
 }
 
 #services .box {
@@ -617,7 +623,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 /* Portfolio Section
 --------------------------------*/
 #portfolio {
-  background: #f7f7f7;
+  background: black;
   padding: 80px 0;
 }
 
@@ -648,7 +654,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #portfolio #portfolio-flters li:hover, #portfolio #portfolio-flters li.filter-active {
-  background: #2dc997;
+  background: #ff4500;
   color: #fff;
 }
 
@@ -674,10 +680,10 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 #portfolio .portfolio-item .details {
   height: 50px;
-  background: #2dc997;
+  background: #f77647;
   position: absolute;
   width: 100%;
-  height: 50px;
+  height: 30px;
   bottom: -50px;
   transition: all 300ms cubic-bezier(0.645, 0.045, 0.355, 1);
 }
@@ -710,7 +716,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 --------------------------------*/
 #contact {
   background:black;
-  padding: 80px 0 40px 0;
+  padding: 190px 0 40px 0;
 }
 
 #contact #google-map {
@@ -722,94 +728,53 @@ body.mobile-nav-active #mobile-nav-toggle {
   color: white;
 }
 
+#contact .info a{
+  color: white;
+}
+
+.contact_text{
+  text-align: center;
+  color: white;
+  font-size: 16px;
+}
+
 #contact .info i {
+  padding: 30px 0 20px 5px;
   font-size: 32px;
   color: orangered;
-  float: left;
 }
 
 #contact .info p {
-  padding: 0 0 10px 50px;
+  padding: 20px 0 0 5px;
   margin-bottom: 20px;
   line-height: 22px;
-  font-size: 14px;
+  font-size: 16px;
 }
 
 #contact .info .email p {
   padding-top: 5px;
 }
 
-#contact .social-links {
+#contact .social-link {
+  padding-top: 40px;
   padding-bottom: 20px;
+  padding-left:90px;
 }
 
-#contact .social-links a {
-  font-size: 18px;
+#contact .social-link a {
+  font-size: 32px;
   display: inline-block;
-  background:#fff;
-  color: #333;
-  line-height: 1;
-  padding: 8px 0;
-  border-radius: 50%;
-  text-align: center;
-  width: 36px;
-  height: 36px;
-  transition: 0.3s;
-}
-
-#contact .social-links a:hover {
-  background: orangered;
-  color: #333;
-}
-
-#contact .form #sendmessage {
+  background:black;
   color: orangered;
-  border: 1px solid orangered;
-  display: none;
+  line-height: 1;
+  padding: 6px 20px 6px 20px;
+  border-width: 10px;
   text-align: center;
-  padding: 15px;
-  font-weight: 600;
-  margin-bottom: 15px;
+  width: 42px;
+  height: 42px;
 }
-
-#contact .form #errormessage {
-  color: red;
-  display: none;
-  border: 1px solid red;
+.contact_icon{
   text-align: center;
-  padding: 15px;
-  font-weight: 600;
-  margin-bottom: 15px;
-}
-
-#contact .form #sendmessage.show, #contact .form #errormessage.show, #contact .form .show {
-  display: block;
-}
-
-#contact .form .validation {
-  color: red;
-  display: none;
-  margin: 0 0 20px;
-  font-weight: 400;
-  font-size: 13px;
-}
-
-#contact .form input, #contact .form textarea {
-  border-radius: 0;
-  box-shadow: none;
-  font-size: 14px;
-}
-
-#contact .form button[type="submit"] {
-  background: orangered;
-  border: 0;
-  padding: 10px 24px;
-  color: #fff;
-  transition: 0.4s;
-}
-
-#contact .form button[type="submit"]:hover {
-  background: #ff4100;
 }
 
 /*--------------------------------------------------------------
