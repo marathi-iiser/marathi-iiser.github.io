@@ -174,14 +174,21 @@ h1,h2, h3, h4, h5, h6 {
 }
 
 #hero h1 {
-  margin: 60px 0 40px 0;
+  margin: 60px 0 5px 0;
   font-size: 64px;
   font-weight: 700;
   line-height: 56px;
   text-transform: uppercase;
   color:orangered;
 }
-#hero h3 {
+
+#hero h3{
+ color: #b3b0b0;
+ font-style: normal;
+ margin-bottom:80px;
+}
+
+#hero h4 {
   color: #eee;
   margin: 0 0 0 100px ;
   font-size: 18px;
@@ -189,7 +196,7 @@ h1,h2, h3, h4, h5, h6 {
 
 @media (max-width: 768px) {
   #hero h1 {
-    font-size: 28px;
+    font-size: 42px;
     line-height: 36px;
   }
 }
@@ -495,7 +502,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 .section-header .section-description {
   text-align: center;
-  padding-bottom: 20px;
+  padding-bottom: 10px;
   color:white;
 }
 
@@ -546,12 +553,12 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 
 
-/* Services Section
+/* Services/Events Section
 --------------------------------*/
 #services {
   background: black;
   background-size: cover;
-  padding: 140px 0 60px 0;
+  padding: 80px 0 60px 0;
 }
 
 #services .box {
@@ -620,11 +627,11 @@ body.mobile-nav-active #mobile-nav-toggle {
   color: #e6e6e6;
 }
 
-/* Portfolio Section
+/* Portfolio/Gallery Section
 --------------------------------*/
 #portfolio {
   background: black;
-  padding: 80px 0;
+  padding: 80px 0 0 0;
 }
 
 #portfolio #portfolio-wrapper {
@@ -643,9 +650,9 @@ body.mobile-nav-active #mobile-nav-toggle {
   margin: 0 10px;
   display: inline-block;
   padding: 10px 22px;
-  font-size: 12px;
+  font-size: 14px;
   line-height: 20px;
-  color: #666666;
+  color: orangered;
   border-radius: 4px;
   text-transform: uppercase;
   background: #fff;
@@ -659,8 +666,11 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #portfolio .portfolio-item {
-  position: relative;
-  height: 200px;
+  padding-left:20px;
+  padding-right: 20px;
+  margin-left: 10px;
+  width:540px;
+  height: 380px;
   overflow: hidden !important;
   margin-bottom: 15px;
   transition: all 350ms ease;
@@ -682,7 +692,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   height: 50px;
   background: #f77647;
   position: absolute;
-  width: 100%;
+  width:600px ;
   height: 30px;
   bottom: -50px;
   transition: all 300ms cubic-bezier(0.645, 0.045, 0.355, 1);
@@ -716,7 +726,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 --------------------------------*/
 #contact {
   background:black;
-  padding: 190px 0 40px 0;
+  padding: 80px 0 40px 0;
 }
 
 #contact #google-map {
