@@ -65,7 +65,7 @@ body {
   font-weight: 400;
   line-height: 1.5;
   color: #212529;
-  text-align: left;
+  text-align: center;
   background-color: #fff;
 }
 
@@ -1113,7 +1113,7 @@ pre code {
     -webkit-box-flex: 0;
     -ms-flex: 0 0 50%;
     flex: 0 0 50%;
-    max-width: 50%;
+    width: 50%;
   }
   .col-md-7 {
     -webkit-box-flex: 0;
