@@ -8,8 +8,8 @@
 # General
 --------------------------------------------------------------*/
 body {
-  background: #fff;
-  color: #666666;
+  background: #111;
+  color: white;
   font-family: "Open Sans", sans-serif;
 }
 
@@ -509,7 +509,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 /* About Us Section
 --------------------------------*/
 #about {
-  background: #fff;
+  background: black;
   padding: 80px 0;
 }
 
@@ -520,6 +520,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #about .about-container .background {
+  background-color: black;
   min-height: 300px;
   background: url(../img/about-img.jpg);
   margin-bottom: 50px;
@@ -527,7 +528,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #about .about-container .content {
-  background: #fff;
+  background: black;
 }
 
 #about .about-container .title {
@@ -545,6 +546,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 #about .about-container p {
   line-height: 26px;
   margin:0 40px 0 0;
+
 }
 
 #about .about-container p:last-child {
@@ -566,7 +568,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   margin-bottom: 50px;
   text-align: center;
   border: 1px solid #e6e6e6;
-  height: 260px;
+  height: 240px;
   position: relative;
   background: black;
 }
