@@ -1,12 +1,3 @@
-/*
-  Theme Name: Regna
-  Theme URL: https://bootstrapmade.com/regna-bootstrap-onepage-template/
-  Author: BootstrapMade.com
-  License: https://bootstrapmade.com/license/
-*/
-/*--------------------------------------------------------------
-# General
---------------------------------------------------------------*/
 body {
   background: #111;
   color: white;
@@ -230,10 +221,6 @@ h1,h2, h3, h4, h5, h6 {
   color: #fff;
 }
 
-#hero .btn-get-started:hover {
-  background: #2dc997;
-  border: 2px solid #2dc997;
-}
 
 /*--------------------------------------------------------------
 # Navigation Menu
@@ -509,7 +496,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 /* About Us Section
 --------------------------------*/
 #about {
-  background: black;
+  background: #222;
   padding: 80px 0;
 }
 
@@ -520,7 +507,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #about .about-container .background {
-  background-color: black;
+  background-color: #222;
   min-height: 300px;
   background: url(../img/about-img.jpg);
   margin-bottom: 50px;
@@ -528,7 +515,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #about .about-container .content {
-  background: black;
+  background: #222;
 }
 
 #about .about-container .title {
@@ -558,7 +545,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 /* Events/Activities Section
 --------------------------------*/
 #events {
-  background: black;
+  background: #222;
   background-size: cover;
   padding: 80px 0 60px 0;
 }
@@ -570,7 +557,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   border: 1px solid #e6e6e6;
   height: 240px;
   position: relative;
-  background: black;
+  background: #333;
 }
 #events .icon {
   position: absolute;
@@ -631,7 +618,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 /* Gallery Section
 --------------------------------*/
 #gallery {
-  background: black;
+  background: #222;
   padding: 80px 0 0 0;
 }
 
@@ -717,7 +704,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 ------------------------------*/
 
 #blog {
-  background: black;
+  background: #222;
   padding:80px 0 40px 0;
 }
 
@@ -754,7 +741,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 .fh5co-blog .blog-text {
   margin-bottom: 30px;
   position: relative;
-  background:#222;
+  background:#333;
   width: 90%;
   padding:30px;
   float: right;
@@ -829,6 +816,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 #blog h3 a{
   font-size: 22px;
   color:rgba(236, 101, 39, 0.904);
+  position: left;
 }
 
 #blog p{
@@ -850,7 +838,7 @@ body.mobile-nav-active #mobile-nav-toggle {
  Contact Section
 --------------------------------*/
 #contact {
-  background:black;
+  background:#222;
   padding: 80px 0 40px 0;
 }
 
@@ -871,7 +859,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 .contact_text{
   text-align: center;
   color: white;
-  font-size: 16px;
+  font-size: 1rem;
 }
 
 #contact .info i {
@@ -884,7 +872,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   padding: 20px 0 0 5px;
   margin-bottom: 20px;
   line-height: 22px;
-  font-size: 16px;
+  font-size: 18px;
 }
 
 #contact .info .email p {
@@ -895,13 +883,12 @@ body.mobile-nav-active #mobile-nav-toggle {
 #contact .social-link {
   padding-top: 40px;
   padding-bottom: 20px;
-  padding-left:90px;
+  text-align: center;
 }
 
 #contact .social-link a {
   font-size: 32px;
   display: inline-block;
-  background:black;
   color: orangered;
   line-height: 1;
   padding: 6px 20px 6px 20px;
@@ -914,11 +901,13 @@ body.mobile-nav-active #mobile-nav-toggle {
   text-align: center;
 }
 
+
+
 /*--------------------------------------------------------------
 # Footer
 --------------------------------------------------------------*/
 #footer {
-  background: #222;
+  background: #111;
   padding-top: 5px;
   padding-bottom: 2px;
   color: #fff;
@@ -950,5 +939,3 @@ body.mobile-nav-active #mobile-nav-toggle {
 /*--------------------------------------
 # Sample 
 ---------------------------------------*/
-
-
