@@ -5,7 +5,7 @@ body {
 }
 
 a {
-  color: orangered;
+  color: #ff5722;
 }
 
 a:hover, a:active, a:focus {
@@ -66,7 +66,7 @@ h1,h2, h3, h4, h5, h6 {
 }
 
 .back-to-top:hover {
-  background: #2dc997;
+  background: #ff5722;
   color: #fff;
 }
 
@@ -169,7 +169,7 @@ h1,h2, h3, h4, h5, h6 {
   font-weight: 700;
   line-height: 56px;
   text-transform: uppercase;
-  color:orangered;
+  color:#ff5722;
 }
 
 #hero h3{
@@ -357,7 +357,7 @@ h1,h2, h3, h4, h5, h6 {
   padding: 0 8px 10px 8px;
   text-decoration: none;
   display: inline-block;
-  color: orangered;
+  color: #ff5722;
   font-family: "Poppins", sans-serif;
   font-weight: 400;
   text-transform: uppercase;
@@ -414,7 +414,7 @@ h1,h2, h3, h4, h5, h6 {
 }
 
 .nav-menu ul li a:hover {
-  background: #2dc997;
+  background: #ff5722;
   color: #fff;
 }
 
@@ -439,7 +439,7 @@ h1,h2, h3, h4, h5, h6 {
 }
 
 #mobile-nav-toggle i {
-  color: orangered;
+  color: #ff5722;
 }
 
 @media (max-width: 768px) {
@@ -473,7 +473,7 @@ h1,h2, h3, h4, h5, h6 {
 }
 
 #mobile-nav ul li a {
-  color: orangered;
+  color: #ff5722;
   font-size: 16px;
   overflow: hidden;
   padding: 10px 22px 10px 15px;
@@ -502,7 +502,7 @@ h1,h2, h3, h4, h5, h6 {
 }
 
 #mobile-nav ul .menu-has-children i.fa-chevron-up {
-  color: #2dc997;
+  color: #ff5722;
 }
 
 #mobile-nav ul .menu-item-active {
@@ -540,7 +540,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 --------------------------------*/
 .section-header .section-title {
   font-size: 32px;
-  color: orangered;
+  color: #ff5722;
   text-transform: uppercase;
   text-align: center;
   font-weight: 700;
@@ -563,7 +563,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 .about h2{
   text-align: center;
   padding-top: 34px;
-  color:orangered;
+  color:#ff5722;
 }
 
 #about .about-container .background {
@@ -579,7 +579,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #about .about-container .title {
-  color: orangered;
+  color: #ff5722;
   font-weight: 700;
   font-size: 32px;
 }
@@ -633,7 +633,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   text-align: center;
   width: 72px;
   height: 72px;
-  background: orangered;
+  background: #ff5722;
 }
 
 #events .icon a {
@@ -647,15 +647,15 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 #events .box:hover .icon {
   background: #fff;
-  border: 2px solid orangered;
+  border: 2px solid #ff5722;
 }
 
 #events .box:hover .icon i {
-  color: orangered;
+  color: #ff5722;
 }
 
 #events .box:hover .icon a {
-  color: orangered;
+  color: #ff5722;
 }
 
 #events .title {
@@ -700,7 +700,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   padding: 10px 22px;
   font-size: 14px;
   line-height: 20px;
-  color: orangered;
+  color: #ff5722;
   border-radius: 4px;
   text-transform: uppercase;
   background: #fff;
@@ -887,7 +887,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 #blog .blog-title {
   font-size: 32px;
-  color: orangered;
+  color: #ff5722;
   text-transform: uppercase;
   text-align: center;
   font-weight: 700;
@@ -925,7 +925,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 #contact .info i {
   padding: 30px 0 20px 5px;
   font-size: 32px;
-  color: orangered;
+  color: #ff5722;
 }
 
 #contact .info p {
@@ -949,7 +949,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 #contact .social-link a {
   font-size: 32px;
   display: inline-block;
-  color: orangered;
+  color: #ff5722;
   line-height: 1;
   padding: 6px 20px 6px 20px;
   border-width: 10px;
