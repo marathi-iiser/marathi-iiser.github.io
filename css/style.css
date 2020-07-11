@@ -625,7 +625,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   left: calc(50% - 36px);
   transition: 0.2s;
   border-radius: 50%;
-  border: 6px solid #fff;
+  border: 5px solid #ff5722;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -633,7 +633,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   text-align: center;
   width: 72px;
   height: 72px;
-  background: #ff5722;
+  background: #ddd;
 }
 
 #events .icon a {
@@ -641,15 +641,16 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #events .icon i {
-  color: #fff;
+  color: #ff5722;
   font-size: 24px;
 }
 
 #events .box:hover .icon {
-  background: #fff;
-  border: 2px solid #ff5722;
+  background: #333;
+  border: 4px solid #fff;
 }
 
+/*---
 #events .box:hover .icon i {
   color: #ff5722;
 }
@@ -657,6 +658,8 @@ body.mobile-nav-active #mobile-nav-toggle {
 #events .box:hover .icon a {
   color: #ff5722;
 }
+
+------*/
 
 #events .title {
   font-weight: 700;
