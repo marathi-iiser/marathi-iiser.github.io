@@ -550,7 +550,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 .section-header .section-description {
   text-align: center;
   padding-bottom: 60px;
-  color:white;
+  color:rgba(255,255,255,0.9);
 }
 
 /* About Us Section
@@ -593,7 +593,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 #about .about-container p {
   line-height: 26px;
   margin:0 20px 0 20px;
-
+  color: rgba(255,255,255,0.6);
 }
 
 #about .about-container p:last-child {
@@ -625,7 +625,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   left: calc(50% - 36px);
   transition: 0.2s;
   border-radius: 50%;
-  border: 5px solid #ff5722;
+  border: 5px solid #e6e6e6;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -633,7 +633,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   text-align: center;
   width: 72px;
   height: 72px;
-  background: #ddd;
+  background: #444;
 }
 
 #events .icon a {
@@ -646,8 +646,8 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #events .box:hover .icon {
-  background: #333;
-  border: 4px solid #fff;
+  background: #ccc;
+  border: 4px solid #222;
 }
 
 /*---
@@ -669,13 +669,13 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #events .title a {
-  color:white;
+  color:rgba(255,255,255,0.8);
 }
 
 #events .description {
   font-size: 14px;
   line-height: 24px;
-  color: #e6e6e6;
+  color: rgba(255,255,255);
 }
 
 /* Gallery Section
@@ -706,14 +706,14 @@ body.mobile-nav-active #mobile-nav-toggle {
   color: #ff5722;
   border-radius: 4px;
   text-transform: uppercase;
-  background: #fff;
+  background: rgba(255,255,255,0.9);
   margin-bottom: 5px;
   transition: all 0.3s ease-in-out;
 }
 
 #gallery #gallery-flters li:hover, #gallery #gallery-flters li.filter-active {
   background: #ff4500;
-  color: #fff;
+  color: rgba(255,255,255,0.9);
 }
 
 #gallery .gallery-item {
@@ -911,7 +911,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #contact .info {
-  color: white;
+  color: rgba(255,255,255,0.7);
 }
 
 #contact .info a{
@@ -921,7 +921,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 .contact_text{
   text-align: center;
-  color: white;
+  color: #ccc;
   font-size: 1rem;
 }
 
@@ -936,11 +936,11 @@ body.mobile-nav-active #mobile-nav-toggle {
   margin-bottom: 20px;
   line-height: 22px;
   font-size: 18px;
+  
 }
 
-#contact .info .email p {
-  padding-top: 5px;
-  color:blue;
+#contact .info:hover a {
+  text-decoration: underline;
 }
 
 #contact .social-link {
@@ -951,15 +951,18 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 #contact .social-link a {
   font-size: 32px;
-  display: inline-block;
   color: #ff5722;
   line-height: 1;
-  padding: 6px 20px 6px 20px;
-  border-width: 10px;
+  padding: 0 10px 0 0;
   text-align: center;
   width: 42px;
   height: 42px;
 }
+
+#contact .social-link a:hover{
+  color:rgba(255,255,255,0.9);
+}
+
 .contact_icon{
   text-align: center;
 }
@@ -973,7 +976,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   background: #111;
   padding-top: 5px;
   padding-bottom: 2px;
-  color: #fff;
+  color:rgba(255,255,255,0.6);
   font-size: 14px;
 }
 
@@ -985,11 +988,11 @@ body.mobile-nav-active #mobile-nav-toggle {
   padding-top: 5px;
   text-align: center;
   font-size: 13px;
-  color: #ccc;
+  color: rgba(255,255,255,0.7);
 }
 
-#footer .credits i{
-  color:#ccc;
+#footer .credits a:hover{
+  color:white;
   display: inline-block;
 }
 
