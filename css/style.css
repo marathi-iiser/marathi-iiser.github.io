@@ -238,7 +238,7 @@ h1,h2, h3, h4, h5, h6 {
 #intro .carousel-fade .carousel-inner .active,
 #intro .carousel-fade .carousel-inner .carousel-item-next.carousel-item-left,
 #intro .carousel-fade .carousel-inner .carousel-item-prev.carousel-item-right {
-  opacity: 0;
+  opacity: 1;
   transition: 0.5s;
 }
 
@@ -388,7 +388,6 @@ h1,h2, h3, h4, h5, h6 {
   visibility: visible;
   -webkit-transform: scaleX(1);
   transform: scaleX(1);
-
 }
 
 .nav-menu ul {
@@ -603,7 +602,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 
 /* Events/Activities Section
---------------------------------*/
+---------------------------*/
 #events {
   background: #111;
   background-size: cover;
@@ -619,6 +618,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   position: relative;
   background: #222;
 }
+
 #events .icon {
   position: absolute;
   top: -36px;
@@ -646,7 +646,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #events .box:hover .icon {
-  background: #fff;
+  background: #ccc;
   border: 4px solid #222;
 }
 
