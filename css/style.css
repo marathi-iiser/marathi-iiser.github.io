@@ -36,7 +36,7 @@ h1,h2, h3, h4, h5, h6 {
   width: 100%;
   height: 100%;
   overflow: hidden;
-  background: #222 url("../img/preloader.svg") no-repeat center center;
+  background: #222 url(../img/preloader.svg) no-repeat center center;
 }
 
 /* Back to top button */
@@ -901,7 +901,8 @@ body.mobile-nav-active #mobile-nav-toggle {
  Contact Section
 --------------------------------*/
 #contact {
-  background:#222;
+  background-image: url(../img/contact-bg.jpg);
+  width: 100%;
   padding: 80px 0 40px 0;
 }
 
