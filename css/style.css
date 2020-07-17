@@ -257,7 +257,7 @@ h1,h2, h3, h4, h5, h6 {
   align-items: center;
   flex-direction: column;
   text-align: center;
-  background-color: rgba(0, 0, 0, 0.6);
+  background-color: rgba(0, 0, 0, 0.5);
   box-shadow: inset 0px 0px 150px 60px rgba(0,0,0,0.4);
 }
 
