@@ -209,17 +209,32 @@ h1,h2, h3, h4, h5, h6 {
 # Hero Section
 --------------------------------------------------------------*/
 #hero {
+  display: table;
   width: 100%;
-  background-position: top center;
-  background-size: cover;
-  position: relative;
+  height: 100vh;
+  background: #000;
 }
+
+#hero .carousel-item {
+  width: 100%;
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+
+#hero .carousel-background img {
+  max-width: 100%;
+}
+
 
 @media (min-width: 1024px) {
   #hero {
     background-attachment: fixed;
   }
 }
+
 
 #hero:before {
   content: "";
@@ -242,6 +257,8 @@ h1,h2, h3, h4, h5, h6 {
   align-items: center;
   flex-direction: column;
   text-align: center;
+  background-color: rgba(0, 0, 0, 0.6);
+  box-shadow: inset 0px 0px 150px 60px rgba(0,0,0,0.4);
 }
 
 #hero h1 {
