@@ -337,7 +337,7 @@ h1,h2, h3, h4, h5, h6 {
 #intro .carousel-fade .carousel-inner .carousel-item-next.carousel-item-left,
 #intro .carousel-fade .carousel-inner .carousel-item-prev.carousel-item-right {
   opacity: 1;
-  transition: 0.5s;
+  transition: 0.4s;
 }
 
 #intro .carousel-fade .carousel-inner .carousel-item-next,
@@ -367,7 +367,7 @@ h1,h2, h3, h4, h5, h6 {
 .carousel-fade .active.carousel-item-right {
   z-index: 0;
   opacity: 0;
-  transition: 0s 0.6s opacity;
+  transition: 0s 0.5s opacity;
 }
 
 @media screen and (prefers-reduced-motion: reduce) {
@@ -471,7 +471,7 @@ h1,h2, h3, h4, h5, h6 {
   content: "";
   position: absolute;
   width: 100%;
-  height: 2px;
+  height: 1px;
   bottom: 0;
   left: 0;
   background-color: white;
