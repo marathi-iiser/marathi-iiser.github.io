@@ -806,7 +806,6 @@ body.mobile-nav-active #mobile-nav-toggle {
 #gallery .gallery-item {
   position: relative;
   height: 200%;
-  width: 100%;
   overflow: hidden !important;
   margin-bottom: 15px;
   transition: all 350ms ease;
