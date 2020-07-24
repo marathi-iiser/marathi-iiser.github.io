@@ -644,6 +644,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   background-image: url(../img/about-bg.jpg);
   padding: 80px 0;
   image-orientation: 90deg;
+  background-size: cover;
 }
 
 #about .about-container .background {
@@ -692,7 +693,8 @@ body.mobile-nav-active #mobile-nav-toggle {
   border: 1px solid #e6e6e6;
   height: 300px;
   position: relative;
-  background-image: url(../img/contact-bg.jpg);
+  background-image: url(../img/about-bg.jpg);
+  background-size: cover;
 }
 
 #events .icon {
