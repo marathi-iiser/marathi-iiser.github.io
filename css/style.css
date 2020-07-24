@@ -262,7 +262,7 @@ h1,h2, h3, h4, h5, h6 {
 }
 
 #hero h1 {
-  margin: 80px 0 5px 0;
+  margin: 60px 0 5px 0;
   font-size: 64px;
   font-weight: 700;
   line-height: 56px;
@@ -273,7 +273,7 @@ h1,h2, h3, h4, h5, h6 {
 #hero h3{
  color: #b3b0b0;
  font-style: normal;
- margin-bottom:70px;
+ margin-bottom:80px;
 }
 
 #hero h4 {
@@ -286,13 +286,12 @@ h1,h2, h3, h4, h5, h6 {
   #hero h1 {
     font-size: 42px;
     line-height: 36px;
-    margin: 40px 0 5px 0;
   }
 }
 
 #hero h2 {
   color: #eee;
-  margin-bottom: 30px;
+  margin-bottom: 40px;
   font-size: 24px;
 }
 
