@@ -1,0 +1,122 @@
+.section-header .section-title {
+    font-size: 32px;
+    color: #ff5722;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 700;
+    margin-bottom: 50px;
+}
+  
+.section-header .section-description {
+    text-align: center !important;
+    font-size: 20px !important;
+    color:rgba(255,255,255,0.9) !important;
+    padding: 0 !important;
+    margin: 0 !important;
+}
+
+.content-bg {
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    z-index: 0;
+    background-image: url(../img/gallery/bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.bg-overlay {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+}
+
+#gallery {
+    background: #222;
+    padding: 80px 0 0 0;
+}
+
+#gallery .post-masonry {
+    margin-bottom: 30px;
+}
+
+#gallery .post-masonry .post-thumb {
+    border: 10px solid #111;
+    overflow: hidden;
+    position: relative;
+}
+
+#gallery .post-masonry .post-thumb img {
+    width: 100%;
+    display: block;
+}
+
+
+#gallery .post-masonry .post-thumb .post-hover {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 70px;
+    left: 0;
+    visibility: hidden;
+    opacity: 0;
+    background: rgba(0,0,0,0.9);
+    -webkit-transition: all 150ms ease-in-out;
+    -moz-transition: all 150ms ease-in-out;
+    -ms-transition: all 150ms ease-in-out;
+    -o-transition: all 150ms ease-in-out;
+    transition: all 150ms ease-in-out;
+}
+
+#gallery .post-masonry .post-thumb .post-hover .inside {
+    position: relative;
+    top: 50%;
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+#gallery .post-masonry .post-thumb .post-hover h4 {
+    font-size: 16px;
+    font-family: 'robotoregular';
+    margin-bottom: 10px;
+}
+
+#gallery .post-masonry .post-thumb .post-hover a {
+    color: #fff !important;
+}
+
+#gallery .post-masonry .post-thumb .post-hover i {
+    display: block;
+    margin-bottom: 10px;
+}
+
+#gallery .post-masonry .post-thumb .post-hover p {
+    font-size: 12px;
+}
+
+#gallery .post-masonry .post-thumb .post-hover span {
+    font-size: 12px;
+    margin-bottom: 15px;
+    display: block;
+}
+
+#gallery .post-masonry .post-thumb:hover .title-over {
+    -webkit-transition: all 150ms ease-in-out;
+    -moz-transition: all 150ms ease-in-out;
+    -ms-transition: all 150ms ease-in-out;
+    -o-transition: all 150ms ease-in-out;
+    transition: all 150ms ease-in-out;
+    visibility: hidden;
+    opacity: 0;
+    bottom: -50px;
+}
+
+#gallery .post-masonry .post-thumb:hover .post-hover {
+    top: 0;
+    visibility: visible;
+    opacity: 1;
+}
