@@ -179,6 +179,7 @@ h1,h2, h3, h4, h5, h6 {
   width: 71px;
   padding: 0;
   margin-top: -20px;
+  opacity: 1 !important;
 }
 
 @media (max-width: 768px) {
@@ -190,7 +191,7 @@ h1,h2, h3, h4, h5, h6 {
 }
 
 #header.header-fixed {
-  background: rgba(52, 59, 64, 0.9);
+  background: rgba(52, 59, 64, 0.5);
   padding: 20px 0;
   height: 72px;
   transition: all 0.5s;
@@ -214,8 +215,7 @@ h1,h2, h3, h4, h5, h6 {
   background-repeat: no-repeat;
 }
 
-
-#hero .carousel-background img {
+#hero img{
   max-width: 100%;
 }
 
@@ -690,11 +690,11 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #events .box {
-  padding: 50px 20px;
+  padding: 50px  20px 20px 20px;
   margin-top: 60px;
   text-align: center;
   border: 1px solid #e6e6e6;
-  height: 300px;
+  height: 330px;
   position: relative;
   background-image: url(../img/about-bg.jpg);
   background-size: cover;
@@ -754,9 +754,32 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #events .description {
-  font-size: 14px;
+  font-size: 16px;
   line-height: 24px;
   color: rgba(255,255,255);
+}
+
+
+
+#events .line{
+  text-align: center;
+  background-color: white;
+  margin: 10px 0 30px 0;
+  width:100%;
+  height:2px;
+}
+
+#events .title:hover a{
+  color: #ff5722;
+}
+
+@media (max-width: 768px) {
+  #events .description {
+    font-size: 14px;
+  }
+  #events .box{
+    height: min-content;
+  }
 }
 
 /*------------------------------
@@ -783,25 +806,144 @@ body.mobile-nav-active #mobile-nav-toggle {
   text-align: center;
   font-weight: 700;
   margin-bottom: 80px;
+  margin-top: 40px;
+}
+
+#blog .box{
+  margin-bottom: 30px;
+  position: relative;
+  background: #333;
+  width: 100%;
+  padding: 20px;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px; 
+  text-align: center;
 }
 
 #blog a{
-  font-size: 16px;
-  color:#0087cc;
+  font-size: 24px;
+  font-weight: bold;
+  color: rgba(255,255,255,0.87);
+  text-align: center;
+  margin-bottom: 40px;
 }
 
-#blog h3 {
-  font-size: 24px;
-  color:rgba(236, 101, 39, 0.904);
-  position: left;
+#blog h2{
+  color: #ddd;
+  font-size: 32px;
+  text-align: center;
+  clear: both;
+  margin: 20px 0 30px 0;
 }
+
+#blog h3{
+  font-size: 26px;
+  text-align: left;
+  clear: both;
+  margin: 10px 0 10px 0;
+  padding: 5px;
+}
+
 
 #blog p{
   text-align: left;
-  font-size: 20px;
-  margin-bottom: 20px;
+  font-size: 18px;
+  margin-bottom: 10px;
+  color: rgba(255,255,255,0.7);
 }
 
+#blog .date p{
+  font-size: 18px;
+  text-align: left;
+  margin-top: -10px;
+}
+
+#blog .date i{
+  padding-left: 5px;
+  color:#ff6122cc;
+}
+
+#blog .description{
+  padding: 20px 0 20px 0;
+}
+
+#blog .line{
+  text-align: center;
+  background-color: rgba(255,255,255,0.3);
+  margin: 10px 0 10px 0;
+  width:100%;
+  height:2px;
+}
+
+#blog .author {
+  text-align: left;
+  font-size: 18px;
+}
+
+#blog a:hover {
+  text-decoration:underline;
+}
+
+#blog .big-box{
+  padding:15px;
+  border-radius: 10px;
+  background-color: #333;
+  margin: 40px 10px 40px 0;
+}
+
+#blog .small-box{
+  padding:15px;
+  height: 240px;
+  border-radius: 10px;
+  background-color: #333;
+  margin: 40px 10px 40px 0;
+}
+
+#blog p{
+  text-align:left;
+}
+
+
+
+#blog .filterDiv {
+  float: left;
+  color: #ffffff;
+  width: 100%;
+  text-align: left;
+  display: none;
+}
+
+#blog .show {
+  display: block;
+}
+
+#blog .container {
+  margin-top: 20px;
+  overflow: hidden;
+}
+
+/* Style the buttons */
+#blog .btn {
+  float: right;
+  width: 60px;
+  margin:10px;
+  outline: none;
+  background-color: #ff6122cc;
+  color: #eee;
+  cursor: pointer;
+  padding:0px;
+  border-radius: 10px;
+}
+
+#blog .btn:hover {
+  background-color: #ddd;
+  color: #333;
+}
+
+#blog .btn.active {
+  background-color: #666;
+  color: white;
+}
 /*-------------------------------
  Contact Section
 --------------------------------*/
@@ -911,3 +1053,90 @@ body.mobile-nav-active #mobile-nav-toggle {
 /*--------------------------------------
 # Sample 
 ---------------------------------------*/
+
+
+#myImg {
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+#myImg:hover {opacity: 0.7;}
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+}
+
+/* Modal Content (image) */
+.modal-content {
+  margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 700px;
+}
+
+/* Caption of Modal Image */
+#caption {
+  margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 700px;
+  text-align: center;
+  color: #ccc;
+  padding: 10px 0;
+  height: 150px;
+}
+
+/* Add Animation */
+.modal-content, #caption {  
+  -webkit-animation-name: zoom;
+  -webkit-animation-duration: 0.6s;
+  animation-name: zoom;
+  animation-duration: 0.6s;
+}
+
+@-webkit-keyframes zoom {
+  from {-webkit-transform:scale(0)} 
+  to {-webkit-transform:scale(1)}
+}
+
+@keyframes zoom {
+  from {transform:scale(0)} 
+  to {transform:scale(1)}
+}
+
+/* The Close Button */
+.close {
+  position: absolute;
+  top: 15px;
+  right: 35px;
+  color: #f1f1f1;
+  font-size: 40px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.close:hover,
+.close:focus {
+  color: #bbb;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/* 100% Image Width on Smaller Screens */
+@media only screen and (max-width: 700px){
+  .modal-content {
+    width: 100%;
+  }
+}
