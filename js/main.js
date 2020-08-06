@@ -164,7 +164,7 @@ jQuery(document).ready(function ($) {
     });
   });
 
-  // Intro carousel
+  // Hero carousel
   var introCarousel = $(".carousel");
   var introCarouselIndicators = $(".carousel-indicators");
   introCarousel.find(".carousel-inner").children(".carousel-item").each(function(index) {
@@ -184,4 +184,20 @@ jQuery(document).ready(function ($) {
     allowPageScroll:"vertical"
   });
 
+  // Blog Popup
+  
+  $(".trigger_popup_fricc").click(function(){
+     $('.hover_bkgr_fricc').show();
+  });
+
+  $('.hover_bkgr_fricc').click(function(){
+      $('.hover_bkgr_fricc').hide();
+  });
+  
+  $('.popupCloseButton').click(function(){
+      $('.hover_bkgr_fricc').hide();
+  });
+
+
 });
+ 
