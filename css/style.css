@@ -833,7 +833,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   font-size: 32px;
   text-align: center;
   clear: both;
-  margin: 20px 0 30px 0;
+  margin: 30px 0 30px 0;
 }
 
 #blog h3{
@@ -848,12 +848,12 @@ body.mobile-nav-active #mobile-nav-toggle {
 #blog p{
   text-align: left;
   font-size: 18px;
-  margin-bottom: 10px;
+  margin: 0 0 10px 0 ;
   color: rgba(255,255,255,0.7);
 }
 
 #blog .date p{
-  font-size: 18px;
+  font-size: 16px;
   text-align: left;
   margin-top: -10px;
 }
@@ -875,9 +875,9 @@ body.mobile-nav-active #mobile-nav-toggle {
   height:2px;
 }
 
-#blog .author {
+#blog .author p{
   text-align: left;
-  font-size: 18px;
+  font-size: 16px;
 }
 
 #blog a:hover {
@@ -899,11 +899,6 @@ body.mobile-nav-active #mobile-nav-toggle {
   margin: 40px 10px 40px 0;
 }
 
-#blog p{
-  text-align:left;
-}
-
-
 
 #blog .filterDiv {
   float: left;
@@ -924,15 +919,25 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 /* Style the buttons */
 #blog .btn {
+  font-weight: bold;
   float: right;
   width: 60px;
   margin:10px;
-  outline: none;
   background-color: #ff6122cc;
   color: #eee;
   cursor: pointer;
   padding:0px;
   border-radius: 10px;
+}
+
+@media (max-width:768px){
+  #blog .btn{
+    border-radius: 5px;
+    margin: 5px;
+    width: 25px;
+    font-size: 16px;
+    font: normal !important;
+  }
 }
 
 #blog .btn:hover {
