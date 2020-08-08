@@ -855,7 +855,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 
 #blog .content {
-  text-align: justify;
+  text-align: left;
   line-height: 36px;
   font-size: 20px;
   margin: 0 0 10px 0 ;
@@ -956,9 +956,6 @@ body.mobile-nav-active #mobile-nav-toggle {
   }
   #blog .big-box{
     padding: 0;
-  }
-  #blog .content{
-    text-align: left;
   }
 }
 
