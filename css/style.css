@@ -1036,6 +1036,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 #footer .iiser-logo img{
   display: block;
   width: 130px;
+  height: 120px;
   position: top;
   margin-left: auto;
 }
