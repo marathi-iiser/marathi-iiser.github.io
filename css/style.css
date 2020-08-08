@@ -851,6 +851,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   font-size: 20px;
   margin: 0 0 10px 0 ;
   color: rgba(255,255,255,0.7);
+  font-family: 'Noto Sans', sans-serif;
 }
 
 #blog .date p{
