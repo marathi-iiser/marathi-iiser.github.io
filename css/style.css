@@ -957,6 +957,9 @@ body.mobile-nav-active #mobile-nav-toggle {
   #blog .big-box{
     padding: 0;
   }
+  #blog .content{
+    text-align: left;
+  }
 }
 
 #blog .btn:hover {
