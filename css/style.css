@@ -1044,12 +1044,11 @@ body.mobile-nav-active #mobile-nav-toggle {
 #footer .copyright {
   text-align: left;
   display: block;
-
+  margin-left:20px ;
 }
 
 #footer .credits {
   margin-left: 20px;
-  margin-top: -15px;
   padding-top: 5px;
   text-align: left;
   font-size: 13px;
