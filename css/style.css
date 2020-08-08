@@ -1029,24 +1029,41 @@ body.mobile-nav-active #mobile-nav-toggle {
   background: #111;
   padding-top: 5px;
   padding-bottom: 2px;
-  color:rgba(255,255,255,0.6);
+  color:#ffffff99;
   font-size: 14px;
 }
 
+#footer .iiser-logo img{
+  display: block;
+  height: 150px;
+  position: top;
+  margin-left: auto;
+}
+
 #footer .copyright {
-  text-align: center;
+  text-align: left;
+  margin: 20px;
+  display: block;
+
 }
 
 #footer .credits {
+  margin-left: 20px;
+  margin-top: -15px;
   padding-top: 5px;
-  text-align: center;
+  text-align: left;
   font-size: 13px;
   color: rgba(255,255,255,0.7);
 }
 
+#footer a{
+  color: rgba(255,255,255,0.8);
+}
+
+
 #footer .credits a:hover{
   color:white;
-  display: inline-block;
+  text-decoration: underline;
 }
 
 #footer .credits h6{
