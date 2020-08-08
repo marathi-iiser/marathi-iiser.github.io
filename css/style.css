@@ -960,6 +960,11 @@ body.mobile-nav-active #mobile-nav-toggle {
   #blog .content {
     font-size: 18px;
   }
+  #blog h2{
+    font-size: 24px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
 }
 
 #blog .btn:hover {
