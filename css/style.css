@@ -15,7 +15,6 @@ a:hover, a:active, a:focus {
 }
 
 p {
-  text-align: center;
   margin: 0 0 30px 0;
   font-family: 'Noto Sans', sans-serif;
 }
@@ -698,7 +697,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   text-align: center;
   border-radius: 10px;
   border: 2px solid #e6e6e6;
-  height: 300px;
+  height: 280px;
   position: relative;
   background-image: url(../img/about-bg.jpg);
   background-size: cover;
@@ -771,7 +770,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   margin-right: auto;
   margin-left: auto;
   background-color: white;
-  margin: 10px 0 30px 0;
+  margin: 10px 0 10px 0;
   width:100%;
   height:2px;
 }
@@ -829,9 +828,9 @@ body.mobile-nav-active #mobile-nav-toggle {
   position: relative;
   background: #333;
   width: 90%;
-  padding: 20px;
-  border-bottom-left-radius: 5px;
-  border-bottom-right-radius: 5px; 
+  padding: 20px 2px 15px 2px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px; 
   text-align: center;
 }
 
@@ -1022,6 +1021,15 @@ body.mobile-nav-active #mobile-nav-toggle {
   font-size: 1rem;
 }
 
+#contact img{
+  float: left;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  display: block;
+  margin: 10px 10px 0 50px;
+}
+
 #contact .info i {
   padding: 30px 0 20px 5px;
   font-size: 32px;
@@ -1029,11 +1037,21 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #contact .info p {
-  padding: 20px 0 0 5px;
-  margin-bottom: 20px;
+  padding: 5px 0 5px 5px;
+  margin: 0;
   line-height: 22px;
   font-size: 18px;
   
+}
+
+@media (max-width:768px){
+  #contact img{
+    margin-left: 29%;
+    margin-top: 25px;
+  }
+  #contact .info p{
+    margin-top: 22px;
+  }
 }
 
 #contact .info a:hover {
