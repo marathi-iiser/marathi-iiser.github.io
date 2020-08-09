@@ -861,14 +861,11 @@ body.mobile-nav-active #mobile-nav-toggle {
 #blog .content {
   text-align: left;
   line-height: 32px;
-  font-size: 20px;
+  font-size: 19px;
   margin: 0 0 10px 0 ;
   color: rgba(255,255,255,0.7);
 }
 
-#blog .content p strong{
-  text-align: center;
-}
 
 #blog .date p{
   font-size: 16px;
@@ -1041,7 +1038,6 @@ body.mobile-nav-active #mobile-nav-toggle {
   margin: 0;
   line-height: 22px;
   font-size: 18px;
-  
 }
 
 @media (max-width:768px){
@@ -1091,7 +1087,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   background: #111;
   padding-top: 5px;
   padding-bottom: 2px;
-  color:#ffffff99;
+  color:#72726c;
   font-size: 14px;
 }
 
@@ -1099,33 +1095,34 @@ body.mobile-nav-active #mobile-nav-toggle {
   display: block;
   width: 130px;
   height: 109px;
-  position: top;
   margin-left: auto;
+  margin-right: auto;
 }
 
 #footer .copyright {
-  text-align: left;
+  text-align: center;
   display: block;
   margin-left:20px ;
 }
 
 #footer .credits {
-  margin-left: 20px;
-  padding-top: 5px;
-  text-align: left;
+  padding-bottom: 5px;
+  text-align: center;
   font-size: 13px;
-  color: rgba(255,255,255,0.7);
+  color: #72726c;
 }
 
 #footer a{
-  color: rgba(255,255,255,0.8);
+  font-weight: 600;
+  color: rgba(255,255,255,0.7);
 }
 
 
-#footer .credits a:hover{
+#footer  a:hover{
   color:white;
   text-decoration: underline;
 }
+
 
 
 
