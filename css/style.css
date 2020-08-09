@@ -777,7 +777,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #events .title:hover a{
-  color: #ff5722;
+  text-decoration: underline;
 }
 
 @media (max-width: 768px) {
@@ -816,29 +816,30 @@ body.mobile-nav-active #mobile-nav-toggle {
   margin-top: 10px;
 }
 
-#blog img{
+#blog .small-img{
   width: 90%;
-  border-top-left-radius:15px ;
-  border-top-right-radius: 15px
+  margin-left: 5%;
+  margin-right: 5%;
+  border-top-left-radius:5px ;
+  border-top-right-radius: 5px;
 }
 
 #blog .box{
-  margin-bottom: 30px;
+  margin:0 auto 30px auto;
   position: relative;
   background: #333;
   width: 90%;
   padding: 20px;
-  border-bottom-left-radius: 20px;
-  border-bottom-right-radius: 20px; 
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px; 
   text-align: center;
 }
 
-#blog a{
-  font-size: 24px;
+#blog .title{
+  font-size: 20px;
   font-weight: bold;
   color: rgba(255,255,255,0.87);
   text-align: center;
-  margin-bottom: 40px;
 }
 
 #blog h2{
@@ -860,18 +861,22 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 #blog .content {
   text-align: left;
-  line-height: 36px;
+  line-height: 32px;
   font-size: 20px;
   margin: 0 0 10px 0 ;
   color: rgba(255,255,255,0.7);
-  font-family: 'Noto Sans', sans-serif;
+}
+
+#blog .content p strong{
+  text-align: center;
 }
 
 #blog .date p{
   font-size: 16px;
   text-align: left;
-  margin-top: -10px;
+  margin: -10px 0 30px 0;
   color: #ccc;
+  font-style: italic;
 }
 
 #blog .date i{
@@ -880,6 +885,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #blog .description p{
+  font-size: 18px;
   padding: 30px 0 0 0;
   color: rgba(255,255,255,0.7);
   text-align: left !important;
@@ -893,11 +899,22 @@ body.mobile-nav-active #mobile-nav-toggle {
   height:2px;
 }
 
+#blog .author{
+  margin:0 0 0 0;
+}
+
 #blog .author p{
   text-align: left;
-  font-size: 16px;
+  font-size: 17px;
+  font-style: italic;
   color: #ccc;
-  margin-bottom: 10px;
+}
+
+#blog .author img{
+  float: left;
+  width: 24px; 
+  height: 24px;
+  border-radius: 50%;
 }
 
 #blog a:hover {
@@ -905,9 +922,8 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #blog .big-box{
-  padding:85px;
+  padding:40px 85px 85px 85px;
   border-radius: 40px;
-  background-color: #333;
   margin: 40px 10px 40px 0;
 }
 
@@ -960,9 +976,6 @@ body.mobile-nav-active #mobile-nav-toggle {
   }
   #blog .big-box{
     padding: 0;
-  }
-  #blog .content {
-    font-size: 18px;
   }
   #blog h2{
     font-size: 24px;
