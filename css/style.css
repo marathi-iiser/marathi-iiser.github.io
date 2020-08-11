@@ -989,9 +989,35 @@ body.mobile-nav-active #mobile-nav-toggle {
   background-color: #666;
   color: white;
 }
+
+/*------------------------------
+gallery Section
+------------------------------*/
+#g{
+  background-color: #bbb;
+}
+#g .gallery-title{
+  font-size: 32px;
+  color: #ff5722;
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: 700;
+  margin-bottom: 20px;
+  margin-top: 100px;
+}
+
+#g img{
+  width: 100%;
+  margin: 20px 0 20px 0;
+}
+
+
+
+
 /*-------------------------------
  Contact Section
 --------------------------------*/
+
 #contact {
   background: #222 ;
   padding: 80px 0 40px 0;
@@ -1020,11 +1046,11 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 #contact img{
   float: left;
-  width: 50px;
-  height: 50px;
+  width: 70px;
+  height: 70px;
   border-radius: 50%;
   display: block;
-  margin: 10px 10px 0 50px;
+  margin: 0 10px 0 50px;
 }
 
 #contact .info i {
@@ -1034,7 +1060,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #contact .info p {
-  padding: 5px 0 5px 5px;
+  padding: 15px 0 5px 5px;
   margin: 0;
   line-height: 22px;
   font-size: 18px;
@@ -1128,8 +1154,129 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 
 /*--------------------------------------
-# Sample 
+#Gallery section
 ---------------------------------------*/
+
+
+#gallery {
+  background-image: url(../img/gallery-bg.jpg);
+  /*filter:blur(6px) ;*/
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+  padding: 80px 0 0 0;
+}
+
+#gallery .section-header {
+  text-align: center ;
+  font-size: 20px ;
+  color:rgba(255,255,255,0.9) ;
+  padding: 0 ;
+  margin: 0 ;
+}
+
+#gallery .section-header .section-title {
+  font-size: 32px;
+  color: #ff5722;
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: 700;
+  margin-bottom: 50px;
+}
+
+#gallery .section-header p{
+  text-align: right;
+}
+
+#gallery img{
+  width: 100%;
+  margin-bottom: 15px;
+  border: 10px solid #555;
+  border-radius: 5px;
+}
+
+#gallery .filterDiv {
+float: left;
+color: #ffffff;
+width: 100%;
+line-height: 100px;
+text-align: center;
+margin: 2px;
+display: none;
+overflow: hidden;
+}
+
+#gallery .show {
+display: block;
+}
+
+#gallery .container {
+margin-top: 20px;
+overflow: hidden;
+min-height: 1000px;
+}
+
+/* Style the buttons */
+#gallery .btn {
+border: none;
+outline: none;
+margin: 5px 5px;
+padding: 12px 22px;
+background-color: rgb(94, 90, 90);
+color: #fff;
+cursor: pointer;
+}
+
+#gallery .btn:hover {
+background-color: #ddd;
+}
+
+#gallery .btn.active {
+background-color: #ddd;
+color: #111;
+}
+
+#gallery #myBtnContainer{
+  text-align: center;
+  margin: 10px 0 20px 0;
+}
+
+@media(max-width:768px){
+  #gallery {
+    
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 #myImg {
@@ -1217,3 +1364,4 @@ body.mobile-nav-active #mobile-nav-toggle {
     width: 100%;
   }
 }
+
