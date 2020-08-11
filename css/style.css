@@ -559,11 +559,10 @@ h1,h2, h3, h4, h5, h6 {
 }
 
 #mobile-nav ul li a {
-  color: #ff4700;
-  font-weight: bold;
+  color: #ff7300da;
   font-size: 22px;
   overflow: hidden;
-  padding: 10px 22px 10px 15px;
+  padding: 10px 22px 20px 15px;
   position: relative;
   text-decoration: none;
   width: 100%;
