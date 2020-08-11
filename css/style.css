@@ -1165,12 +1165,11 @@ gallery Section
   background-size: cover;
   background-position: center;
   padding: 80px 0 0 0;
-  min-width: 1000px;
 }
 
-#gallery .section-header {
+#gallery .section-header .section-description{
   text-align: center ;
-  font-size: 20px ;
+  font-size: 18px ;
   font-family: 'Noto Sans', sans-serif;
   color:rgba(255,255,255,0.9) ;
   padding: 0 ;
@@ -1189,23 +1188,21 @@ gallery Section
 #gallery .section-header .container p{
   text-align: right;
   font-weight: bold;
-  font-size: 22px ;
+  font-size: 18px ;
   color:rgba(255,255,255,0.9) ;
   padding-right: 10px;
 }
 
 #gallery img{
+  margin:0 0 15px 0 ;
   width: 100%;
-  margin-bottom: 15px;
   border: 10px solid #555;
   border-radius: 5px;
 }
 
 #gallery .filterDiv {
-float: left;
 color: #ffffff;
 width: 100%;
-line-height: 100px;
 text-align: center;
 margin: 2px;
 display: none;
@@ -1227,14 +1224,16 @@ min-height: 1000px;
 border: none;
 outline: none;
 margin: 5px 5px;
-padding: 12px 22px;
+padding: 10px 20px;
+font-size: 15px !important;
 background-color: rgb(94, 90, 90);
 color: #fff;
 cursor: pointer;
 }
 
 #gallery .btn:hover {
-background-color: #ddd;
+background-color: #bbb;
+color: #222;
 }
 
 #gallery .btn.active {
