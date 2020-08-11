@@ -1165,6 +1165,7 @@ gallery Section
   background-size: cover;
   background-position: center;
   padding: 80px 0 0 0;
+  min-width: 1000px;
 }
 
 #gallery .section-header {
