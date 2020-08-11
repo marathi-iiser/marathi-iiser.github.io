@@ -669,6 +669,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #about .about-container p {
+  text-align: center;
   line-height: 32px;
   font-size: 17px;
   margin:0 20px 0 20px;
