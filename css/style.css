@@ -878,6 +878,11 @@ body.mobile-nav-active #mobile-nav-toggle {
   color: rgba(255,255,255,0.7);
 }
 
+#blog .content strong{
+  padding-top: 100px;
+  font-size: 26px;
+}
+
 
 #blog .date p{
   font-size: 16px;
@@ -1058,8 +1063,6 @@ gallery Section
   width: 100%;
   margin: 20px 0 20px 0;
 }
-
-
 
 
 /*-------------------------------
@@ -1297,7 +1300,7 @@ color: #222;
 }
 
 #gallery .btn.active {
-background-color: #ddd;
+background-color: #bbb;
 color: #111;
 }
 
