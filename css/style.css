@@ -836,8 +836,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   background: #333;
   width: 90%;
   padding: 0 0 10px 0  ;
-  border-bottom-left-radius: 10px;
-  border-bottom-right-radius: 10px; 
+  border-radius: 10px;
   cursor: pointer;
   text-align: center;
 }
