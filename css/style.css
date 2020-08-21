@@ -693,6 +693,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #events .box {
+  cursor: pointer;
   margin-left: 20px;
   margin-right: 20px;
   padding: 50px 10px 10px 10px;
@@ -735,6 +736,10 @@ body.mobile-nav-active #mobile-nav-toggle {
 #events .box:hover .icon {
   background:#fff;
   border: 4px solid #222;
+}
+
+#events .box:hover{
+  background-color: #111;
 }
 
 /*---
@@ -1231,7 +1236,7 @@ gallery Section
 #footer .copyright {
   text-align: center;
   display: block;
-  margin-left:20px ;
+  margin: 10px;
 }
 
 #footer .credits {
