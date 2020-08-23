@@ -892,6 +892,11 @@ body.mobile-nav-active #mobile-nav-toggle {
   color: rgba(255,255,255,0.7);
 }
 
+#blog i:hover{
+  color: rgba(255,255,255,0.7) !important;
+  text-decoration: none !important;
+}
+
 #blog .content strong{
   padding-top: 100px;
   font-size: 20px;
