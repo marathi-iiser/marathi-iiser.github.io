@@ -183,6 +183,7 @@ h1,h2, h3, h4, h5, h6 {
   opacity: 1;
 }
 
+
 @media (max-width: 768px) {
   #header #logo img {
     max-height: 50px;
@@ -560,11 +561,26 @@ audio{
   padding-top: 18px;
   bottom: 0;
   z-index: 998;
-  background: rgba(52, 59, 64, 0.9);
+  background: #222;
   left: -260px;
   width: 200px;
   overflow-y: auto;
   transition: 0.4s;
+}
+
+
+#mobile-nav img {
+  width: 60px;
+}
+
+#mobile-nav strong {
+  font-size: 24px;
+}
+
+#mobile-nav hr{
+  border-color: #eee;
+  margin: 0;
+  margin-top: -10px;
 }
 
 #mobile-nav ul {
@@ -621,7 +637,7 @@ audio{
   top: 0;
   left: 0;
   position: fixed;
-  background: rgba(52, 59, 64, 0.9);
+  background: rgba(10,10, 10, 0.6);
   display: none;
 }
 
