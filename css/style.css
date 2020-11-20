@@ -775,6 +775,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 #events .box:hover{
   background: #222;
+
 }
 
 #events .box:hover .icon {
@@ -885,8 +886,9 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #blog .box:hover {
-  background: rgb(63, 61, 61);
+  background: #111;
   transition: 0.5s;
+  width: 93%;
 }
 
 #blog .title{
