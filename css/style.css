@@ -731,6 +731,15 @@ body.mobile-nav-active #mobile-nav-toggle {
   padding: 80px 0 60px 0;
 }
 
+#events a{
+  color: #0087cc;
+}
+
+#events a:hover {
+  text-decoration:underline;
+}
+
+
 #events .box {
   cursor: pointer;
   margin-left: 20px;
