@@ -731,6 +731,13 @@ body.mobile-nav-active #mobile-nav-toggle {
   padding: 80px 0 60px 0;
 }
 
+#events .section-description{
+  font-family: 'Noto Sans', sans-serif;
+  text-align: center;
+  font-size: 17px;
+  color: rgba(255,255,255,0.8);
+}
+
 #events a{
   color: #0087cc;
 }
@@ -739,6 +746,9 @@ body.mobile-nav-active #mobile-nav-toggle {
   text-decoration:underline;
 }
 
+#events h4:hover{
+  text-decoration:underline; 
+}
 
 #events .box {
   cursor: pointer;
@@ -751,7 +761,6 @@ body.mobile-nav-active #mobile-nav-toggle {
   background: #333;
   width: 75%;
   position: relative;
-  
   background-size: cover;
 }
 
@@ -843,6 +852,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 @media (max-width: 768px) {
 
   #events .box{
+    width: 100%;
     height: min-content;
   }
   #events p{
