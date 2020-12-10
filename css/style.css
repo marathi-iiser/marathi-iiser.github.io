@@ -985,8 +985,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   font-style: italic;
 }
 
-#blog .date i{
-  padding-left: 5px;
+#blog i{
   color:#ff6122cc;
 }
 
