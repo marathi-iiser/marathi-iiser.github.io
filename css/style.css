@@ -218,6 +218,25 @@ h1,h2, h3, h4, h5, h6 {
   background-repeat: no-repeat;
 }
 
+@-webkit-keyframes zoom {
+  from {
+    -webkit-transform: scale(1,1);
+  }
+  to {
+    -webkit-transform: scale(1.5,1.5);
+  }
+}
+
+/* Standard syntax */
+@keyframes zoom {
+ from {
+      transform: scale(1,1);
+ }
+ to {
+      transform: scale(1.5,1.5);
+ }
+}
+
 #hero img{
   max-width: 100%;
 }
@@ -1402,4 +1421,3 @@ color: #111;
   text-align: center;
   margin: 10px 0 20px 0;
 }
-
