@@ -1432,6 +1432,14 @@ color: #111;
   margin: 10px 0 20px 0;
 }
 
+.section-box{
+  margin: 10px;
+  font-size: 16px;
+  padding: 10px;
+  background-color: #222;
+  border-radius: 10px;
+  box-shadow: 10px 10px #333;
+}
 
 #gappagoshti{
   padding:0 0 0 0;
@@ -1445,11 +1453,6 @@ color: #111;
   margin-top: 100px;
 }
 
-#gappagoshti .description, #kavyavachan .description{
-  margin-right: 10px;
-  font-size: 18px;
-  padding: 10px;
-  background-color: #222;
-  border-radius: 10px;
-  box-shadow: 10px 10px #333;
+#om20 .section-header .section-title {
+  margin-top: 100px;
 }
