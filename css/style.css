@@ -525,13 +525,16 @@ audio{
   background: #fff;
 }
 
+
+
 .nav-menu ul li:first-child {
   border-top: 0;
 }
 
 .nav-menu ul li a {
   padding: 10px;
-  color: #222;
+  color: #ff5722;
+  background-color: #444;
   transition: 0.3s;
   display: block;
   font-size: 13px;
@@ -546,6 +549,7 @@ audio{
 .nav-menu ul ul {
   margin: 0;
 }
+
 
 /* Mobile Nav Toggle */
 #mobile-nav-toggle {
@@ -573,6 +577,7 @@ audio{
   }
 }
 
+
 /* Mobile Nav Styling */
 #mobile-nav {
   position: fixed;
@@ -582,7 +587,7 @@ audio{
   z-index: 998;
   background: #222;
   left: -260px;
-  width: 200px;
+  width: 240px;
   overflow-y: auto;
   transition: 0.4s;
 }
@@ -638,7 +643,7 @@ audio{
   z-index: 99;
   padding: 15px;
   cursor: pointer;
-  color: #fff;
+  color: #ff5722;
 }
 
 #mobile-nav ul .menu-has-children i.fa-chevron-up {
@@ -704,6 +709,8 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 
+
+
 #about .about-container .background {
   backface-visibility: visible;
   min-height: 300px;
@@ -749,6 +756,8 @@ body.mobile-nav-active #mobile-nav-toggle {
   background-position: center;
   padding: 80px 0 60px 0;
 }
+
+
 
 #events .section-description{
   font-family: 'Noto Sans', sans-serif;
@@ -1188,6 +1197,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   padding: 80px 0 40px 0;
 }
 
+
 #contact #google-map {
   height: 300px;
   margin-bottom: 20px;
@@ -1420,4 +1430,26 @@ color: #111;
 #gallery #myBtnContainer{
   text-align: center;
   margin: 10px 0 20px 0;
+}
+
+
+#gappagoshti{
+  padding:0 0 0 0;
+}
+
+#gappagoshti .section-header .section-title {
+  margin-top: 100px;
+}
+
+#kavyavachan  .section-header .section-title {
+  margin-top: 100px;
+}
+
+#gappagoshti .description, #kavyavachan .description{
+  margin-right: 10px;
+  font-size: 18px;
+  padding: 10px;
+  background-color: #222;
+  border-radius: 10px;
+  box-shadow: 10px 10px #333;
 }
