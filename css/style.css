@@ -1432,8 +1432,18 @@ color: #111;
   margin: 10px 0 20px 0;
 }
 
+
+
+
+
+
+
+
+
+
+
 .section-box{
-  margin: 10px;
+  margin: 0 !important;
   font-size: 16px;
   padding: 10px;
   background-color: #222;
@@ -1441,18 +1451,25 @@ color: #111;
   box-shadow: 10px 10px #333;
 }
 
-#gappagoshti{
-  padding:0 0 0 0;
+
+#gappagoshti a:hover {
+  text-decoration: underline;
+  color: #0087cc;
 }
 
-#gappagoshti .section-header .section-title {
-  margin-top: 100px;
+#kavyavachan a:hover {
+  text-decoration: underline;
+  color: #0087cc;
 }
 
-#kavyavachan  .section-header .section-title {
-  margin-top: 100px;
+
+#om20 a:hover {
+  text-decoration: underline;
+  color: #0087cc;
 }
 
-#om20 .section-header .section-title {
-  margin-top: 100px;
+
+#classes a:hover {
+  text-decoration: underline;
+  color: #0087cc;
 }
