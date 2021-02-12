@@ -1448,7 +1448,7 @@ color: #111;
   padding: 10px;
   background-color: #222;
   border-radius: 10px;
-  box-shadow: 10px 10px #333;
+  box-shadow: 8px 8px 8px -1px #333;
 }
 
 
