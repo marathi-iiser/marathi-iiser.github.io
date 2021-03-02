@@ -1197,6 +1197,9 @@ body.mobile-nav-active #mobile-nav-toggle {
   padding: 80px 0 40px 0;
 }
 
+#contact h2 {
+  font-size: 26px;
+}
 
 #contact #google-map {
   height: 300px;
