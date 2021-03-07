@@ -1201,12 +1201,29 @@ body.mobile-nav-active #mobile-nav-toggle {
   font-size: 26px;
 }
 
+#contact h3 {
+  font-size: 22px;
+  color:#ff5722;
+}
+
+#contact h4 {
+  font-size: 20px;
+}
+
+#contact hr{
+  background-color: #eee;
+  height: 2px;
+  width: 80%;
+}
+
+
 #contact #google-map {
   height: 300px;
   margin-bottom: 20px;
 }
 
 #contact .info {
+  text-align: center;
   color: rgba(255,255,255,0.7);
 }
 
@@ -1214,6 +1231,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   font-size: 16px;
   color: #0087cc;
   transition: all 0.3s ease-in-out;
+  margin: 0px;
 }
 
 .contact_text{
@@ -1223,12 +1241,14 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #contact img{
-  float: left;
-  width: 70px;
-  height: 70px;
+  width: 40%;
   border-radius: 50%;
   display: block;
-  margin: 0 10px 0 50px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 15px;
+  padding:3px;
+  border:3px solid #ff5722;
 }
 
 #contact .info i {
@@ -1238,31 +1258,13 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #contact .info p {
-  padding: 15px 0 5px 5px;
-  margin: 0;
   line-height: 22px;
   font-size: 16px;
+  margin: 10px 0 0 0;
 }
 
-@media (max-width:768px){
-  #contact img{
-    margin-top: 35px;
-  }
-  #contact .info p{
-    margin-top: 32px;
-  }
-}
-
-@media (max-width:420px){
-  #contact img{
-    margin-left: 20%;
-  }
-}
-
-@media (min-width:421px) and (max-width:768px){
-  #contact  img{
-    margin-left: 30%;
-  }
+#contact iframe{
+  margin-top: 10px;
 }
 
 #contact .info a:hover {
